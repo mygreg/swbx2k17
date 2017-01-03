@@ -20,17 +20,14 @@
     min-height: 632px;
     max-height: 864px;
     position: relative;
-    /*background-color: #EF5350*/
-
-}
-
-.hp-background {
-  background:
+    background:
     linear-gradient(
       rgba(255, 0, 0, 0.45),
       rgba(255, 0, 0, 0.45)
     ),
     url(img/swbx_home_bg.jpg);
+    /*background-color: #EF5350*/
+
 }
 
 #nav_f {
