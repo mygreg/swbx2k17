@@ -53,7 +53,7 @@ a:hover, a:focus, a:active, a:visited {
 }
 
 /* ------------------
-	Navigation 
+	Navigation
 ------------------ */
 .side-menu {
 	position: fixed;
@@ -108,7 +108,7 @@ a:hover, a:focus, a:active, a:visited {
 
 
 .hero-header {
-	background: #016cc7;
+	background: #D9E2DE;
 	min-height: 600px;
 	padding: 5em;
 	color: #fff;
@@ -265,32 +265,32 @@ ul.footer-menu li a:hover {
     right: 15px;
 }
 
-.animated { 
-    -webkit-animation-duration: 5s; 
-    animation-duration: 5s; 
-    -webkit-animation-fill-mode: both; 
-    animation-fill-mode: both; 
-    -webkit-animation-timing-function: linear; 
-    animation-timing-function: linear; 
-    animation-iteration-count:infinite; 
-    -webkit-animation-iteration-count:infinite; 
-} 
+.animated {
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    animation-iteration-count:infinite;
+    -webkit-animation-iteration-count:infinite;
+}
 
-@-webkit-keyframes bounce { 
-    0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);} 
-    40% {-webkit-transform: translateY(-30px);} 
-    60% {-webkit-transform: translateY(-15px);} 
-} 
+@-webkit-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}
+    40% {-webkit-transform: translateY(-30px);}
+    60% {-webkit-transform: translateY(-15px);}
+}
 
-@keyframes bounce { 
-    0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
-    40% {transform: translateY(-30px);} 
-    60% {transform: translateY(-15px);} 
-} 
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+    40% {transform: translateY(-30px);}
+    60% {transform: translateY(-15px);}
+}
 
-.bounce { 
-    -webkit-animation-name: bounce; 
-    animation-name: bounce; 
+.bounce {
+    -webkit-animation-name: bounce;
+    animation-name: bounce;
 }
 
 /* ========================================
