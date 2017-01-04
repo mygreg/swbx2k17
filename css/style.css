@@ -134,6 +134,12 @@ a:hover, a:focus, a:active, a:visited {
 	max-width: 60%;
 
 }
+
+.baseline {
+margin-top: 1.5em;
+margin-bottom: 1.5em;
+}
+
 .me-row {
 	padding: 30px 0;
 }
