@@ -129,6 +129,8 @@ a:hover, a:focus, a:active, a:visited {
 	margin-top: 0em;
 }
 .hero-header .rocket {
+  margin-top: 3em;
+  margin-left: 1.5em;
 	max-width: 60%;
 
 }
