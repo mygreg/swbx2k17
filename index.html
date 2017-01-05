@@ -8,15 +8,15 @@
   <meta name="author" content="Startup Weekend Bordeaux">
   <title>Startup Weekend Bordeaux - #swbx2k17</title>
 
-  <!-- Bootstrap -->
+  <!-- CSS & Bootstrap -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
   <link href="css/themify-icons.css" rel="stylesheet">
   <link href='css/dosis-font.css' rel='stylesheet' type='text/css'>
-
-
+  <!-- JS & Flipclock -->
   <link rel="stylesheet" href="css/flipclock.css">
   <script src="js/flipclock/flipclock.js"></script>
+
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -483,7 +483,29 @@
         </div>
       </div>
       <!-- End: Footer -->
+      <!-- Clock script -->
+        <script type="text/javascript">
+            var clock;
 
+            $(document).ready(function() {
+              var clock;
+
+              clock = $('.clock').FlipClock({
+                    clockFace: 'DailyCounter',
+                    autoStart: false,
+                    callbacks: {
+                      stop: function() {
+                        $('.message').html('The clock has stopped!')
+                      }
+                    }
+                });
+
+                clock.setTime(220880);
+                clock.setCountdown(true);
+                clock.start();
+
+            });
+        </script>
       <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
       <script src="js/jquery.min.js"></script>
       <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
