@@ -70,9 +70,18 @@
           </div>
           <div class="col-md-5 hidden-xs">
             <img src="img/rocket.png" class="rocket animated bounce">
-              <div id="clock" style="margin:2em;"></div>
-              <div class="message"></div>
 
+              <div class="clock" style="margin:2em;"></div>
+              <div class="message"></div>
+              <div id="getting-started"></div>
+                    <script type="text/javascript">
+                      $("#getting-started")
+                      .countdown("2017/01/01", function(event) {
+                        $(this).text(
+                          event.strftime('%D days %H:%M:%S')
+                        );
+                      });
+                    </script>
           </div>
         </div>
         <!-- End: Header -->
