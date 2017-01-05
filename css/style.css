@@ -159,9 +159,16 @@ margin-bottom: 1.5em;
     color: #ACBBB7;
 }
 
-.feature span .red {
+.feature2 {
+  padding: 20px;
+  margin-top: 30px;
+}
+.feature2 span {
+  font-size: 5em;
     color: #83141F;
 }
+
+
 
 .speaker .feature {
 	width: 31.333333%;
