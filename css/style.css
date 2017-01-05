@@ -159,6 +159,10 @@ margin-bottom: 1.5em;
     color: #ACBBB7;
 }
 
+.feature span .red {
+    color: #83141F;
+}
+
 .speaker .feature {
 	width: 31.333333%;
 	-webkit-transition: all 0.3s;
