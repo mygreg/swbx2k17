@@ -27,9 +27,14 @@ a:hover, a:focus, a:active, a:visited {
     text-decoration: none;
 }
 
-i{
+i {
   margin: 0.5em;
 }
+
+i:hover {
+  color:#83141F;
+}
+
 
 /* Buttons override */
 .btn {
