@@ -198,7 +198,8 @@ margin-bottom: 1.5em;
     border-radius: 50%;
 }
 .nonprofit-img {
-  max-width: 40%;
+  padding:10px;
+  max-width: 30%;
     border-radius: 50%;
 }
 
