@@ -41,6 +41,7 @@ a:hover, a:focus, a:active, a:visited {
 .btn-red {
 	background-color: #dd5138;
 	color: #fff;
+  margin-top: 1em;
 }
 .btn-yellow {
 	background-color: #fcd93b;
