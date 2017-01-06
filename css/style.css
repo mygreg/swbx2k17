@@ -197,6 +197,11 @@ margin-bottom: 1.5em;
     border: 4px solid #efefef;
     border-radius: 50%;
 }
+.nonprofit-img {
+  max-width: 40%;
+    border-radius: 50%;
+}
+
 ul.speaker-social li {
 	list-style: none;
 	display: inline-block;
