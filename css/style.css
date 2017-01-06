@@ -32,13 +32,16 @@ i {
 }
 
 i:hover {
-  color:#83141F;
+  color:#97B512;
 }
 
 i:visited{
-  color: #97B512;
+  color: #83141F;
 }
 
+.social {
+ color:#83141F;
+}
 /* Buttons override */
 .btn {
 	text-transform: uppercase;
