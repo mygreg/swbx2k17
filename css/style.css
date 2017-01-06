@@ -35,6 +35,9 @@ i:hover {
   color:#83141F;
 }
 
+i:visited{
+  color: #97B512;
+}
 
 /* Buttons override */
 .btn {
